@@ -1,0 +1,168 @@
+/*--Font import--*/
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;700&display=swap');
+
+/* Body's style */
+body {
+    background-image: url('../images/background.jpg');
+    background-size: 300px;
+    font-family: 'Exo', sans-serif;
+    margin: 0%;
+}
+
+/* Nav style*/
+header, footer {
+    background-color: rgb(202, 186, 202);
+    padding: 20px;
+    border: solid 2px rgb(202, 186, 202);
+    margin: 0;
+}
+/* size of the pic in the nav*/
+header img{
+    width: 50px;
+}
+
+/* Space between social media links in the nv */
+a {
+    margin-left: 30px;
+    margin-right: 30px;
+    text-decoration: none;
+    color: purple;
+}
+a:hover{
+    color: black;
+}
+
+/* social media links not underlined */
+A:link, A:visited, A:active {
+    text-decoration: none; 
+}
+
+
+
+/* Margin of all content*/
+section {
+    margin: 50px;
+}
+
+/* size of the title*/
+h1{
+    font-size: 60px;
+}
+
+
+
+/*the style of the 4 images*/
+figure{
+    display: inline-block;
+    margin: 55px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+figcaption{
+ margin: 30px;
+}
+
+footer{
+ margin-bottom: 0px;
+}
+
+/* Copy rights*/
+footer p {
+    margin: 0%;
+    margin-top: 20px;
+    color: purple;
+}
+
+/*space between the name in the nav and the rest*/
+
+#nav{
+    margin-right: 500px;
+}
+
+/* Title*/
+#nobuttommargin{
+    margin-bottom: 0px;
+    transition: 0.3s;
+}
+
+/* hover of theTitle*/
+#nobuttommargin:hover{
+    color:rgb(202, 186, 202);
+}
+
+/* About us border*/
+#about-us{
+    border: 3px solid rgb(202, 186, 202);
+    padding: 20px;
+}
+
+/* Over Flow about us*/
+#about-us div{
+    overflow: auto;
+}
+/*Images size of the about us*/
+#about-us img {
+    width: 180px;
+}
+/* Float  righ of a pic in the about us*/
+#right{
+    float: right;
+    margin-left: 10px;
+}
+
+/* images sizes in the collaboration*/
+#collaboration img{
+    width: 210px;
+}
+
+/* Margin of the quote*/
+#margin {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*  ali of the name in the quote*/
+#rightali{
+    text-align: right;
+}
+
+/* Hover of the title */
+#nobuttommargin:hover{
+    color:rgb(202, 186, 202);
+}
+
+/* Scroll button*/
+#scroll {
+    background-color: rgb(202, 186, 202);
+    position: fixed;
+    bottom: 600px;
+}
+
+#footerdown {
+    margin-bottom: 420px;
+}
+
+/* Bold text*/
+.bold,figcaption{
+    font-weight: bold;
+}
+
+/* center text*/
+.center , footer {
+    text-align: center;
+}
+
+.left{
+    float: left;
+    margin-right: 10px;
+}
+
+/* Border of the quote and collaboration*/
+.border{
+    border: 3px solid rgb(202, 186, 202);
+    padding: 20px;
+}
+
+
